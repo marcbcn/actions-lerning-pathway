@@ -33,6 +33,7 @@ jobs:
       actions: write
       pages: write
       id-token: write
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repo
         uses: actions/checkout@v3
